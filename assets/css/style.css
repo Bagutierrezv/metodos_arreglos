@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Shadows Into Light', serif;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+
+.tarjeta-tareas{
+    text-align: center;
+    border-radius: 1rem;
+    border: 2px solid rgb(129, 0, 189);
+    margin: 2rem;
+    width: 25rem;
+    background-color: rgb(233, 210, 255);
+}
+
+h1{
+    padding: 0.5rem;
+    border-bottom: 1px solid #000;
+    color: rgb(148, 33, 255);
+}
+
+/*ul{
+    list-style-type: none;
+}*/
+
+.tareas, .resultados{
+    font-size: 20px;
+}
+
+.tareas{
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+}
+
+input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 1rem;
+}
+
+.resultados{
+    border-top: 1px solid #000;
+    padding: 0.5rem;
+    font-weight: 800;
+    color: rgb(148, 33, 255);
+}
+
+.fa-square-minus{
+    color: rgb(223, 23, 66);
+}
+
+.fa-plus{
+    color: rgb(0, 175, 0);
+}
+
+.tarjeta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta > p, i{
+    margin: 0rem 0.3rem;
+}
+
+.completado{
+    text-decoration: line-through;
+
+}
